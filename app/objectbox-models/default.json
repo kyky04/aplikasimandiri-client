@@ -1,0 +1,284 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:4696158899051790721",
+      "lastPropertyId": "20:5428272260442340491",
+      "name": "DataItemProduk",
+      "properties": [
+        {
+          "id": "1:5291975458317921956",
+          "name": "gambarUtama"
+        },
+        {
+          "id": "2:5617090097295254989",
+          "name": "idKategori"
+        },
+        {
+          "id": "3:3661658406270418452",
+          "name": "idToko"
+        },
+        {
+          "id": "4:8697172994031680498",
+          "name": "createdAt"
+        },
+        {
+          "id": "5:7277458325689526770",
+          "name": "stok"
+        },
+        {
+          "id": "6:710324020088554301",
+          "name": "createdBy"
+        },
+        {
+          "id": "7:7966357062541846418",
+          "name": "nama"
+        },
+        {
+          "id": "8:3318998337470577880",
+          "name": "harga"
+        },
+        {
+          "id": "9:3575759180991106184",
+          "name": "updatedAt"
+        },
+        {
+          "id": "10:6059429659944913249",
+          "name": "berat"
+        },
+        {
+          "id": "11:6380361735240666486",
+          "name": "updatedBy"
+        },
+        {
+          "id": "12:5200930780461745092",
+          "name": "id"
+        },
+        {
+          "id": "13:904384163038103314",
+          "name": "deskripsi"
+        },
+        {
+          "id": "14:6922737797712583623",
+          "name": "slug"
+        },
+        {
+          "id": "15:6991858461641138893",
+          "name": "status"
+        },
+        {
+          "id": "16:643276451352220181",
+          "name": "amount"
+        },
+        {
+          "id": "18:8275343304123880052",
+          "name": "wishlist"
+        },
+        {
+          "id": "19:1586020158709368799",
+          "name": "cart"
+        },
+        {
+          "id": "20:5428272260442340491",
+          "name": "hargaDiskon"
+        }
+      ],
+      "relations": [
+        {
+          "id": "1:1265702727145613578",
+          "name": "gambar"
+        }
+      ]
+    },
+    {
+      "id": "3:1697810849134991502",
+      "lastPropertyId": "7:6527368363017295134",
+      "name": "GambarItem",
+      "properties": [
+        {
+          "id": "1:3536758122831095610",
+          "name": "idProduk"
+        },
+        {
+          "id": "2:2465390424447247747",
+          "name": "updatedAt"
+        },
+        {
+          "id": "3:8180013243919081366",
+          "name": "updatedBy"
+        },
+        {
+          "id": "4:4621724616404702387",
+          "name": "createdAt"
+        },
+        {
+          "id": "5:6106632680735432773",
+          "name": "id"
+        },
+        {
+          "id": "6:7344216155372342407",
+          "name": "gambar"
+        },
+        {
+          "id": "7:6527368363017295134",
+          "name": "createdBy"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "4:8606834999379258858",
+      "lastPropertyId": "9:1519544019388998527",
+      "name": "DataItemKategori",
+      "properties": [
+        {
+          "id": "1:2855670452683010472",
+          "name": "keterangan"
+        },
+        {
+          "id": "2:727772886065830106",
+          "name": "nama"
+        },
+        {
+          "id": "3:4719341018045919194",
+          "name": "updatedAt"
+        },
+        {
+          "id": "4:4257105630353610839",
+          "name": "idToko"
+        },
+        {
+          "id": "5:9205209075843527410",
+          "name": "updatedBy"
+        },
+        {
+          "id": "6:6690232813649012846",
+          "name": "createdAt"
+        },
+        {
+          "id": "7:1103149344060896843",
+          "name": "id"
+        },
+        {
+          "id": "8:2390832077590624335",
+          "name": "gambar"
+        },
+        {
+          "id": "9:1519544019388998527",
+          "name": "createdBy"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "5:7090843494191309031",
+      "lastPropertyId": "19:463031453922811775",
+      "name": "DataItemCart",
+      "properties": [
+        {
+          "id": "1:9124303819696382314",
+          "name": "gambarUtama"
+        },
+        {
+          "id": "2:1579415952494184910",
+          "name": "idKategori"
+        },
+        {
+          "id": "3:6912007008123866528",
+          "name": "idToko"
+        },
+        {
+          "id": "4:3224661261529363783",
+          "name": "createdAt"
+        },
+        {
+          "id": "5:4974297524027514170",
+          "name": "stok"
+        },
+        {
+          "id": "6:6313101895989670216",
+          "name": "createdBy"
+        },
+        {
+          "id": "7:663698343288774090",
+          "name": "nama"
+        },
+        {
+          "id": "8:5474880228275337776",
+          "name": "harga"
+        },
+        {
+          "id": "9:5581472045761849993",
+          "name": "updatedAt"
+        },
+        {
+          "id": "10:7514436589734667453",
+          "name": "berat"
+        },
+        {
+          "id": "11:7272277739553034683",
+          "name": "updatedBy"
+        },
+        {
+          "id": "12:31083629512980081",
+          "name": "id"
+        },
+        {
+          "id": "13:5385407345843031875",
+          "name": "deskripsi"
+        },
+        {
+          "id": "14:4953785998467298881",
+          "name": "slug"
+        },
+        {
+          "id": "15:3290462786036267185",
+          "name": "status"
+        },
+        {
+          "id": "16:3308206899520607398",
+          "name": "amount"
+        },
+        {
+          "id": "17:7835259010412447781",
+          "name": "wishlist"
+        },
+        {
+          "id": "18:222989438976464399",
+          "name": "cart"
+        },
+        {
+          "id": "19:463031453922811775",
+          "name": "total"
+        }
+      ],
+      "relations": [
+        {
+          "id": "2:8160290688804574733",
+          "name": "gambar"
+        }
+      ]
+    }
+  ],
+  "lastEntityId": "5:7090843494191309031",
+  "lastIndexId": "1:6320134111292578063",
+  "lastRelationId": "2:8160290688804574733",
+  "lastSequenceId": "0:0",
+  "modelVersion": 4,
+  "modelVersionParserMinimum": 4,
+  "retiredEntityUids": [
+    654726644976103120
+  ],
+  "retiredIndexUids": [
+    6320134111292578063
+  ],
+  "retiredPropertyUids": [
+    6928526689891440936,
+    8831613499738025186,
+    157990853442535598
+  ],
+  "retiredRelationUids": [],
+  "version": 1
+}

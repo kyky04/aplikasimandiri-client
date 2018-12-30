@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Loka Payu</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="str_nav_shopping_cart">Keranjang</string>
+    <string name="str_nav_wishlist">Favorit</string>
+    <string name="str_nav_history">Riwayat Order</string>
+    <string name="str_nav_news">Berita Terbaru</string>
+    <string name="str_nav_account">Profil</string>
+    <string name="str_nav_notifications">Notifikasi</string>
+    <string name="sub_title_nav_others">Lainnya</string>
+    <string name="str_nav_instruction">Intruksi</string>
+    <string name="str_nav_setting">Pengaturan</string>
+    <string name="str_nav_rate">Rate</string>
+    <string name="str_nav_about">Tentang Kami</string>
+    <string name="press_again_exit_app">Press again to exit</string>
+
+</resources>

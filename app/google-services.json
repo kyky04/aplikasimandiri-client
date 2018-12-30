@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "74273967373",
+    "firebase_url": "https://aplikasi-mandiri.firebaseio.com",
+    "project_id": "aplikasi-mandiri",
+    "storage_bucket": "aplikasi-mandiri.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:74273967373:android:8130f90ec477f0f9",
+        "android_client_info": {
+          "package_name": "co.id.shope"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "74273967373-n1ltp47f9uv09i2l58pgi91q2do7o015.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGd7WXQ-3jo3Ax1BA3kj-fOs5C7gVp61c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:74273967373:android:79df1bce381b002a",
+        "android_client_info": {
+          "package_name": "co.id.wargamandiri"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "74273967373-n1ltp47f9uv09i2l58pgi91q2do7o015.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGd7WXQ-3jo3Ax1BA3kj-fOs5C7gVp61c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

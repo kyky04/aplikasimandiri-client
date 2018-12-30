@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="co.id.shope">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:name=".application.MyApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Nama"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        >
+        <activity android:name="co.id.shope.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="co.id.shope.activities.MenuActivity" />
+        <activity android:name="co.id.shope.activities.LoginActivity" />
+        <activity android:name="co.id.shope.activities.KeranjangActivity" />
+        <activity android:name="co.id.shope.activities.WebViewActivity"></activity>
+        <activity android:name="co.id.shope.activities.CheckOutActivity"></activity>
+        <activity android:name="co.id.shope.activities.DaftarActivity"></activity>
+        <activity android:name="co.id.shope.activities.ChatActivity"></activity>
+
+        <service
+            android:name=".services.NotificationExtenderBareBonesExample"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.onesignal.NotificationExtender" />
+            </intent-filter>
+        </service>
+
+    </application>
+
+</manifest>

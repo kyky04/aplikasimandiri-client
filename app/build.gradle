@@ -1,0 +1,88 @@
+apply plugin: 'com.android.application'
+apply plugin: 'io.objectbox'
+
+android {
+    compileSdkVersion 27
+    defaultConfig {
+        applicationId "co.id.shope"
+        minSdkVersion 17
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0.3"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        manifestPlaceholders = [
+                onesignal_app_id: '49ec85be-81b0-434c-a295-7d6da73f020d',
+                // Project number pulled from dashboard, local value is ignored.
+                onesignal_google_project_number: 'REMOTE'
+        ]
+    }
+    buildTypes {
+        release {
+            shrinkResources true
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    dexOptions {
+        preDexLibraries = false
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    //android
+    implementation 'com.android.support:appcompat-v7:27.1.0'
+    implementation 'com.android.support:support-v4:27.1.0'
+    implementation 'com.android.support:cardview-v7:27.1.0'
+    implementation 'com.android.support:design:27.1.0'
+    implementation 'com.android.support:recyclerview-v7:27.1.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.0'
+//    implementation 'com.google.android.material:material:1.0.0-beta01'
+
+    //bind
+    implementation 'com.jakewharton:butterknife:8.8.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+
+    //networking
+    implementation 'com.google.firebase:firebase-messaging:12.0.1'
+    implementation 'com.google.code.gson:gson:2.8.0'
+    implementation 'com.squareup.retrofit2:retrofit:2.3.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
+    implementation 'com.squareup.okhttp3:okhttp:3.8.1'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.8.1'
+    implementation 'com.amitshekhar.android:android-networking:1.0.1'
+    implementation 'com.amitshekhar.android:rx2-android-networking:1.0.1'
+    implementation 'com.google.firebase:firebase-auth:11.0.4'
+    implementation 'com.onesignal:OneSignal:[3.9.1, 3.99.99]'
+    implementation 'com.google.gms:google-services:4.1.0'
+
+    //pattern
+    implementation 'io.reactivex.rxjava2:rxjava:2.1.1'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.0.1'
+    implementation 'org.parceler:parceler-api:1.1.10'
+
+    //views
+    implementation 'uk.co.chrisjenx:calligraphy:2.3.0'
+    implementation 'com.balysv:material-ripple:1.0.2'
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.0.3'
+    implementation 'eu.davidea:flexible-adapter:5.0.0-rc4'
+    implementation 'jp.wasabeef:glide-transformations:2.0.2'
+    implementation 'org.sufficientlysecure:html-textview:3.5'
+    implementation 'fr.tvbarthel.blurdialogfragment:lib:2.2.0'
+    implementation 'com.karumi:dexter:4.2.0'
+    implementation 'com.github.prolificinteractive:material-calendarview:1.6.0'
+    implementation 'com.github.apl-devs:appintro:v4.2.3'
+    implementation "com.mikepenz:materialdrawer:5.5.0"
+    implementation 'de.hdodenhof:circleimageview:2.1.0'
+    implementation 'com.github.esafirm.android-image-picker:imagepicker:1.12.0'
+
+
+    //testing
+    testImplementation 'junit:junit:4.12'
+    annotationProcessor 'org.parceler:parceler:1.1.10'
+    androidTestImplementation 'com.android.support.test:runner:1.0.1'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+}
+
+
